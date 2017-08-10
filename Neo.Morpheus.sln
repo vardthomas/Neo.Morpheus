@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neo.Morpheus", "Neo.Morpheus\Neo.Morpheus.csproj", "{390D4A1D-5C75-47B6-9764-BFF78E03F141}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{64BD8AFF-46D6-4FDE-859E-1CD114FEA1D0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfTest", "..\..\..\xwt\TestApps\WpfTest\WpfTest.csproj", "{E41F4448-15C3-4E95-B310-FD333FDF5D2F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples", "..\..\..\xwt\TestApps\Samples\Samples.csproj", "{88C04B85-B69B-47B4-AB9F-64F6DD4E0897}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neo.Morpheus", "src\Neo.Morpheus\Neo.Morpheus.csproj", "{390D4A1D-5C75-47B6-9764-BFF78E03F141}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neo.Morpheus.Wpf", "src\Neo.Morpheus.Wpf\Neo.Morpheus.Wpf.csproj", "{65BACA21-76A8-47CA-92C6-ABF6689E9664}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +21,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{390D4A1D-5C75-47B6-9764-BFF78E03F141}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{390D4A1D-5C75-47B6-9764-BFF78E03F141}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{390D4A1D-5C75-47B6-9764-BFF78E03F141}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{390D4A1D-5C75-47B6-9764-BFF78E03F141}.Debug|x86.Build.0 = Debug|Any CPU
-		{390D4A1D-5C75-47B6-9764-BFF78E03F141}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{390D4A1D-5C75-47B6-9764-BFF78E03F141}.Release|Any CPU.Build.0 = Release|Any CPU
-		{390D4A1D-5C75-47B6-9764-BFF78E03F141}.Release|x86.ActiveCfg = Release|Any CPU
-		{390D4A1D-5C75-47B6-9764-BFF78E03F141}.Release|x86.Build.0 = Release|Any CPU
 		{E41F4448-15C3-4E95-B310-FD333FDF5D2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E41F4448-15C3-4E95-B310-FD333FDF5D2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E41F4448-15C3-4E95-B310-FD333FDF5D2F}.Debug|x86.ActiveCfg = Debug|x86
@@ -43,6 +37,22 @@ Global
 		{88C04B85-B69B-47B4-AB9F-64F6DD4E0897}.Release|Any CPU.Build.0 = Release|Any CPU
 		{88C04B85-B69B-47B4-AB9F-64F6DD4E0897}.Release|x86.ActiveCfg = Release|Any CPU
 		{88C04B85-B69B-47B4-AB9F-64F6DD4E0897}.Release|x86.Build.0 = Release|Any CPU
+		{390D4A1D-5C75-47B6-9764-BFF78E03F141}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{390D4A1D-5C75-47B6-9764-BFF78E03F141}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{390D4A1D-5C75-47B6-9764-BFF78E03F141}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{390D4A1D-5C75-47B6-9764-BFF78E03F141}.Debug|x86.Build.0 = Debug|Any CPU
+		{390D4A1D-5C75-47B6-9764-BFF78E03F141}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{390D4A1D-5C75-47B6-9764-BFF78E03F141}.Release|Any CPU.Build.0 = Release|Any CPU
+		{390D4A1D-5C75-47B6-9764-BFF78E03F141}.Release|x86.ActiveCfg = Release|Any CPU
+		{390D4A1D-5C75-47B6-9764-BFF78E03F141}.Release|x86.Build.0 = Release|Any CPU
+		{65BACA21-76A8-47CA-92C6-ABF6689E9664}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65BACA21-76A8-47CA-92C6-ABF6689E9664}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65BACA21-76A8-47CA-92C6-ABF6689E9664}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{65BACA21-76A8-47CA-92C6-ABF6689E9664}.Debug|x86.Build.0 = Debug|Any CPU
+		{65BACA21-76A8-47CA-92C6-ABF6689E9664}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65BACA21-76A8-47CA-92C6-ABF6689E9664}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65BACA21-76A8-47CA-92C6-ABF6689E9664}.Release|x86.ActiveCfg = Release|Any CPU
+		{65BACA21-76A8-47CA-92C6-ABF6689E9664}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
